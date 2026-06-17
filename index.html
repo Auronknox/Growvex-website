@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="jEJX68e52Oh0qdzLSmks962fekEAtE9a8gnfeTYl1vk" />
 <title>Growvex — AI-Powered Web Experiences</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1403,50 +1404,67 @@
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials" id="testimonials">
-  <div style="text-align:center">
-    <div class="section-label" style="justify-content:center">Client Results</div>
-    <div class="section-title reveal">Words from the <span class="grad">businesses we built.</span></div>
+<!-- FIRST CLIENT SECTION -->
+<section class="testimonials" id="testimonials" style="text-align:center; position:relative; overflow:hidden;">
+
+  <style>
+    .first-client-wrap { max-width: 780px; margin: 0 auto; position: relative; z-index: 2; }
+    .first-client-glow { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(123,47,255,0.1), transparent 70%); pointer-events: none; }
+    .first-client-badge { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px 6px 8px; border: 1px solid rgba(0,212,255,0.25); border-radius: 100px; background: rgba(0,212,255,0.06); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; color: var(--cyan); margin-bottom: 40px; }
+    .first-client-badge span { width: 6px; height: 6px; background: var(--cyan); border-radius: 50%; animation: pulse 2s infinite; }
+    .first-client-headline { font-family: var(--font-display); font-size: clamp(36px, 5vw, 64px); font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; margin-bottom: 24px; color: var(--text); }
+    .first-client-sub { font-size: 18px; color: var(--muted); line-height: 1.8; max-width: 560px; margin: 0 auto 60px; }
+    .first-client-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 60px; }
+    .first-client-card { padding: 28px 24px; border: 1px solid var(--border); border-radius: 20px; background: var(--card); text-align: left; transition: border-color 0.3s, transform 0.3s; }
+    .first-client-card:hover { border-color: rgba(123,47,255,0.4); transform: translateY(-4px); }
+    .first-client-card-icon { font-size: 28px; margin-bottom: 16px; }
+    .first-client-card-title { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .first-client-card-text { font-size: 13px; color: var(--muted); line-height: 1.7; }
+    .first-client-spots { display: inline-flex; align-items: center; gap: 10px; padding: 10px 20px; border: 1px solid rgba(123,47,255,0.3); border-radius: 100px; background: rgba(123,47,255,0.06); font-size: 13px; color: var(--muted); margin-bottom: 32px; }
+    .first-client-spots strong { color: var(--text); }
+    .first-client-spots-dot { width: 8px; height: 8px; background: #00ff88; border-radius: 50%; animation: pulse 1.5s infinite; }
+    @media (max-width: 900px) { .first-client-cards { grid-template-columns: 1fr; } .first-client-sub { font-size: 15px; } }
+  </style>
+
+  <div class="first-client-glow"></div>
+  <div class="first-client-wrap">
+    <div class="first-client-badge reveal">
+      <span></span>
+      NOW ONBOARDING FIRST CLIENTS — 2026
+    </div>
+
+    <h2 class="first-client-headline reveal">
+      Be the business<br>everyone else <span class="grad">wishes they were.</span>
+    </h2>
+
+    <p class="first-client-sub reveal">
+      We're selecting our first clients carefully — businesses serious about standing out online. Early clients get our full attention, fastest turnaround, and results we'll both be proud of.
+    </p>
+
+    <div class="first-client-cards reveal">
+      <div class="first-client-card">
+        <div class="first-client-card-icon">⚡</div>
+        <div class="first-client-card-title">Delivered in Days</div>
+        <div class="first-client-card-text">No 3-month waits. Your website goes live in under 7 days from our first call.</div>
+      </div>
+      <div class="first-client-card">
+        <div class="first-client-card-icon">🎯</div>
+        <div class="first-client-card-title">Built to Convert</div>
+        <div class="first-client-card-text">Not just beautiful — engineered to turn visitors into customers from day one.</div>
+      </div>
+      <div class="first-client-card">
+        <div class="first-client-card-icon">🤝</div>
+        <div class="first-client-card-title">Personal Attention</div>
+        <div class="first-client-card-text">Direct access to our founders. Every decision made with your business in mind.</div>
+      </div>
+    </div>
+
+    <div class="first-client-spots reveal">
+      <div class="first-client-spots-dot"></div>
+      Accepting <strong>limited spots</strong> this month — don't miss your window
+    </div>
   </div>
 
-  <div class="testimonials-grid reveal">
-    <div class="testi-card">
-      <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
-      <p class="testi-text">Within the first week of going live, we started getting calls from new customers who found us online. The website looks more professional than restaurants 10 times our size.</p>
-      <div class="testi-author">
-        <div class="testi-avatar">RK</div>
-        <div>
-          <div class="testi-name">Ramesh Kumar</div>
-          <div class="testi-biz">Spice Route Restaurant, Hyderabad</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="testi-card">
-      <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
-      <p class="testi-text">They delivered in 6 days. My previous agency took 3 months and the result was nowhere near this quality. I wish I found Growvex sooner.</p>
-      <div class="testi-author">
-        <div class="testi-avatar">PM</div>
-        <div>
-          <div class="testi-name">Priya Mehta</div>
-          <div class="testi-biz">MindSpace Clinic, Bangalore</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="testi-card">
-      <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
-      <p class="testi-text">My boutique went from zero online presence to fully booked weekends. The website design made my brand look like a luxury label. Absolutely worth every rupee.</p>
-      <div class="testi-author">
-        <div class="testi-avatar">AS</div>
-        <div>
-          <div class="testi-name">Anjali Sharma</div>
-          <div class="testi-biz">Aura Boutique, Delhi</div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- PRICING -->
